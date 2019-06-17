@@ -1,0 +1,22 @@
+{
+  "name": "noform-backend",
+  "version": "1.0.0",
+  "description": "Noform Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noform-dev/noform-backend.git"
+  },
+  "author": "Noform",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noform-dev/noform-backend/issues"
+  },
+  "homepage": "https://github.com/noform-dev/noform-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
