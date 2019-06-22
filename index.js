@@ -1,5 +1,6 @@
 const express = require('express')
 const bodyParser = require('body-parser')
+const cors = require('cors')
 
 const app = express()
 const PORT = 4000
@@ -15,6 +16,7 @@ const agregar = item => db.push(item)
 const buscar = () => db
 
 app.use(bodyParser.json())
+app.use(cors())
 
 app.get('/hola/:name', (req, res) => {
   const name = req.params.name
